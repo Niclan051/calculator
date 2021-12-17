@@ -1,18 +1,18 @@
-print("Создатель: Михаил NicLan")
+print("Created by Niclan051")
 while(True):
-    pervoechiclo=float(input("Введите первое число:\n"))
-    deystvie=input("Выберите действие:\n+, -, * или /\n")
-    vtoroechiclo=float(input("Введите второе число:\n"))
+    pervoechiclo=float(input("Enter the first number:\n"))
+    deystvie=input("Choose from Addition, Substraction,Multiplication or Division:")
+    vtoroechiclo=float(input("Enter the second number:\n"))
     if pervoechiclo!=int(pervoechiclo)or vtoroechiclo!=int(vtoroechiclo):
-      print("Действие не может быть выполнено!")
+      print("Unable to calculate!")
     elif pervoechiclo==0and deystvie=="/"or vtoroechiclo==0and deystvie=="/":
-      print("Действие не может быть выполнено!")
+      print("Unable to divide!")
     else:
-      if deystvie=="+":
+      if deystvie=="Addition":
           print("Ответ:",pervoechiclo+vtoroechiclo)
-      if deystvie == "-":
+      if deystvie == "Substraction":
           print("Ответ:",pervoechiclo-vtoroechiclo)
-      if deystvie == "*":
+      if deystvie == "Multiplication":
           print("Ответ:", pervoechiclo*vtoroechiclo) 
-      if deystvie == "/":
+      if deystvie == "Division":
           print("Ответ:", pervoechiclo/vtoroechiclo)
