@@ -6,7 +6,7 @@ while(True):
     if pervoechiclo!=int(pervoechiclo)or vtoroechiclo!=int(vtoroechiclo):
       print("Unable to calculate!")
     elif pervoechiclo==0and deystvie=="/"or vtoroechiclo==0and deystvie=="/":
-      print("Unable to divide!")
+      print("Unable to calculate!")
     else:
       if deystvie=="Addition":
           print("Answer:",pervoechiclo+vtoroechiclo)
